@@ -198,3 +198,11 @@ export const deleteChat = async (chatId: number): Promise<void> => {
   await db.chats.delete(+chatId);
 };
 ```
+
+## Chat interface
+
+### ChatThread component
+
+```tsx
+
+```
